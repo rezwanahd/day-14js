@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Add New Devs </h3>
+                        <hr>
+                        <form id="devs_form">
+                            <div class="form-group">
+                                <label for="">Name</label>
+                                <input class="form-control" name="name" type="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                Skills
+                                <hr>
+                                <input name="skill" type="checkbox" value="React Developer" id="react"><label
+                                    for="react">React Developer</label> <br>
+                                <input name="skill" type="checkbox" value="Laraval Developer" id="Laraval"><label
+                                    for="Laraval">Laraval Developer</label> <br>
+                                <input name="skill" type="checkbox" value="ISO Developer" id="ISO"><label for="ISO">ISO
+                                    Developer</label> <br>
+                                <input name="skill" type="checkbox" value="Python Developer" id="Python"><label
+                                    for="Python">Python Developer</label> <br>
+                            </div>
+                            <div class="form-group">
+                                Gender
+                                <hr>
+                                <input name="gender" type="radio" value="Male" id="Male"><label for="Male"> Male</label>
+                                <br>
+                                <input name="gender" type="radio" value="Female" id="Female"><label for="Female"> Female
+                                </label> <br>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Photo</label>
+                                <input class="form-control" name="photo" type="text" placeholder="photo">
+                            </div>
+
+                            <div class="form-group">
+                                <input class="btn btn-primary" value="Add New" type="submit">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row devs-area">
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./asset/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./function.js"></script>
+
+</body>
+
+</html>
